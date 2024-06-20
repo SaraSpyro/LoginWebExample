@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin: 10px 100px;
+    border-radius: 5px;
+}
+i{
+    position: absolute;
+    right: 675px;
+    top: 236px;
+}
+
+#login{
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.btnDark{
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btnDark:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+.btnLight{
+    color: black;
+    background-color: whitesmoke;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btnLight:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+.dBlock{
+    display: none !important;
+}
